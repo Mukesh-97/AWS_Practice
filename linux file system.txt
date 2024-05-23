@@ -1,0 +1,71 @@
+Linux:
+    It is a open source operating system.they give you the OS with source code.
+Windows:
+   It is closed source OS.and it gives you the OS.but, not the source code.
+File System:
+for linux:
+    /dev/sda
+        -->/dev/sda1
+           /dev/sda2
+           /dev/sda3
+   /dev/sdb
+        -->/dev/sdb1
+           /dev/sdb2
+For windows:
+   disk 0 =c; e; d;
+   disk 1 =f ; g;
+
+in Windows-->insert a disk,create partitions,Format the partition.
+in Linux-->insert a disk,craete partitions,format teh partition,Mount the partition to the directory,write data to the directory.
+
+GCP-->google cloud platform
+      create REDHAT Enterprise Linux 8 type of instance(VM) in GCP.
+
+LAB 1 :
+   one harddisk(os disk) is attached by default
+   we can attach 'n' number os data disks with that VM.
+
+  view the Disk & Partition of the VM command = fdisk -l
+
+
+ note:windows super user= administrator
+      linux super user = root user
+      command of the super user = sudo su -
+
+LAB 2:
+   Attach a new data disk os 50GB with the running machine.
+   list and view the disk & partitions using fdisk -l command
+
+LAB 3:
+   create a primary and extended partition in /dev/sdb
+   then, create a logical partition inside the extended partion.
+
+  Command;
+        fdisk /dev/sdb
+        m
+        n
+        then,give to amount of GB we want.
+        wq-->save&quit
+        parted /dev/sdb
+        print free
+        q
+Format the primary and logical partition 
+mkfs.vfat, ext4, ext3
+
+commands;   fdisk -l /dev/sdb
+            mkfs.ext4 /dev/sdb5
+            mkfs.xfs /dev/sdb6
+
+Mounting :
+ 3 types 1-temporary mounting
+         2-permanent mounting
+         3-auto mounting
+syntax; 
+     mount <partition name><directory name>
+command;
+     mkdir /mount1
+     fdisk -l /dev/sdb
+     mount /dev/sdb5 /mount1
+
+      
+

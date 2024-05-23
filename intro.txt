@@ -1,0 +1,51 @@
+cloud-->room,manage person,computer,power,internet,storege.
+
+amazon-->aws
+microsft-->azure
+google-gooogle 
+                                                           provider              end user
+public-->aws,azure,gcp                                 service provider          public               
+private-->vm ware/hyper v/open stack                     comapany                company
+hybrid-->public & private/public &  public
+commuunity-->us fbi
+
+
+saas---software
+paas---platform
+iaas---infrastructure
+
+daas---data
+
+aws-->solution architect
+                                                                                     ec2-instance-machine-os
+EC2-Elastic cloud compute   ---->>virtual machine
+vpc-virtual private cloud   ---->> customize n/w(using subnetting)
+nat--instanse--gateway   ---->forward traffic from the instances instances in the private subnet to the internet. 
+peering--->requester--acceptor
+transit gateway--->central hub
+load balancer-->
+auto scaling--->
+
+storage
+
+ebs-elastic block store--pen drive
+efs-elastic file system-at
+fsx  - windows
+s3-simple storage service
+
+database
+RDS-relational db
+dynamo Db
+
+Cloud 
+
+Route 53
+cloud trail
+cloud watch
+cloud formation
+cloud front--cdn(content delivery network)
+
+
+ADmin
+
+iam

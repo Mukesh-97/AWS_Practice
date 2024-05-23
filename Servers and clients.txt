@@ -1,0 +1,71 @@
+SERVER-
+------
+A server in its most basic form: Is a computer device that runs in a program or process dedicated to running one or more server programs.
+These service programs range in variety depending on what the server is designed for like LAN,WAN,MAN
+Using internet technologies, devices are able to establish a connection to a server to access it and make use of the resources or programs on the servers.
+
+CLIENT-
+------
+Client - A system that uses remote services from a server.
+The main operations of the client system are listed below:
+Managing the user interface.
+Accepts and checks the syntax of user inputs
+
+Operating System(OS) configuration classified into two types,
+*Work group
+*Domain
+
+WORK GROUP-
+----------
+All computers are peers; no computer has control over another computer. Each computer has a set of user accounts. To use any computer in the workgroup, you must have an account on that computer
+There are typically no more than ten to twenty computers
+All computers must be on the same local network or subnet
+
+DOMAIN-
+------
+One or more computers are servers. Network administrators use servers to control the security and permissions for all computers on the domain.
+This makes it easy to make changes because the changes are automatically made to all computers.
+If you have a user account on the domain, you can log on to any computer on the domain without needing an account on that computer.
+There can be hundreds or thousands of computers. The computers can be on different local networks
+
+DNS-
+---
+The Domain Name System (DNS) turns domain names into IP addresses, which browsers use to load internet pages. 
+Every device connected to the internet has its own IP address, which is used by other devices to locate the device.
+hostname.domainname
+HOST NAME RESOLUTION
+FQDN IP Address, IP Address FQDN     
+FQDN-fully qualified domain name
+forward lookup query     reverse  lookup query				         
+EXAMPLE
+www.instagram.com www.=host , instagram.com=domain name
+
+Zone:
+----
+It is a administrative space which allows for a control of DNS components
+Forward loopback Query would be answered by using Forward Loopback Zone (FLZ)
+Reverse loopback Query would be answered by using Reverse  Loopback Zone (RLZ)
+
+PORT NUMBER-
+-----------
+Port number is the part of the addressing information used to identify the senders and receivers of messages in computer networking. 
+Different port numbers are used to determine what protocol incoming traffic should be directed to.
+
+SOME OF THE PORT NUMBERS:
+SSH(SECURE SHELL)                   -    22
+SMTP(SIMPLE MAIL TRANSFER PROTOCOL) -    25
+DNS(DOMAIN NAME SYSTEM)             -    53
+HTTP(HYPER TEXT TRANSFER PROTOCOL)  -    80
+HTTPS(Hypertext Transfer Protocol Secure) - 443
+POP3(POST OFFICE PROTOCOL)          -    110
+RDP(REMOTE DECKTOP PROTOCOL)        -    3389
+
+TCP- Transfer Control Protocol:
+---
+Connection oriented protocol That Establish a connection before transmitting data and should close the connection after transmitting the data.
+
+UDP - User Datagram Protocol:
+---
+Communications protocol that is primarily used for establishing low-latency and loss-tolerating connections between applications.
+
+

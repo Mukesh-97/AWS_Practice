@@ -1,0 +1,39 @@
+cloud:
+    It is the on-demand availability of Computer System Resources, especially data storage & Computing power without direct active management by the user.
+
+    cloud is not the replacement of virtualization.
+    virtualization is one of the most important components of cloud.
+
+3 Types:
+    Public-->AWS,AZURE,GCP
+    Private-->VM WARE,OPENSTACK,HYPER V
+    Hybrid-->Public & Private
+AWS-Amazon Web service
+  Its one of the public cloud platform.
+  It works based on regions and Availability zones.
+
+AWS EC2-Elastic Compute Cloud
+  Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
+
+steps:
+   1.click launch instances
+   2.choose an AMI
+   3.choose an Instance types
+   4.configure instance details
+   5.Add storage
+   6.Add tags
+   7.Configure security group
+   8.Review and Launch instance
+note: once we launch Linux VM,we use some 3rd party apps.
+
+login to the instance through putty
+In Linux :
+   1.Command- yum install httpd -y
+             install apache http service in that instance  
+   2.Command- service httpd status
+             view the status of http service i.e;Active or Inactive
+   3.Command- service httpd start
+             Start the http service
+   4.Command- Service chkconfig httpd on
+             Check and on the http service
+   5.Copy & paste public ip of google browser. now,we see output of the http service in our google page.
